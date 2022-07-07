@@ -1,0 +1,120 @@
+/*Styling Elements Tags*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-container {
+  width: 85%;
+  margin: 0 auto;
+}
+body {
+  background-color: #caf0f8;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/*Style head & navbar*/
+
+.parent-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ade8f4;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.tittle {
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+  width: 40%;
+}
+
+.navbar {
+  margin: 10px;
+}
+
+/* navbar a*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  background-color: black;
+}
+a:visited {
+  color: #1098ad;
+}
+
+/*Styling main*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.welcome {
+  margin-bottom: 10px;
+}
+
+.backimg {
+  margin: 0.5em;
+}
+.photo {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*flex: 0 0 50px;*/
+}
+
+.media {
+  margin-bottom: 20px;
+}
+
+.handle {
+  display: flex;
+  /*flex: 0 0 30px;*/
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+}
